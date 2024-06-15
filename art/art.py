@@ -36,20 +36,20 @@ def grid():
 
 	if orientation==0:
 		if size=="a4":
-			xx=x_/21
-			yy=y_/29.7
+			xx=x_/21*2
+			yy=y_/29.7*2
 
 		elif size=="a3":
-			xx=x_/29.7
-			yy=y_/42
+			xx=x_/29.7*2
+			yy=y_/42*2
 	elif orientation==1:
 		if size=="a4":
-			xx=y_/21
-			yy=x_/29.7
+			xx=y_/21*2
+			yy=x_/29.7*2
 
 		elif size=="a3":
-			xx=y_/29.7
-			yy=x_/42	
+			xx=y_/29.7*2
+			yy=x_/42*2	
 
 	
 	yy1=y_/2
